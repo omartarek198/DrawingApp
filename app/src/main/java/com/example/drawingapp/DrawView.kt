@@ -93,7 +93,7 @@ class DrawView (context: Context, attrs: AttributeSet): View(context,attrs) {
 
 
     }
-    on
+
     fun setBrushSize(size:Float)
     {
         BrushSize=TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,size,resources.displayMetrics)
